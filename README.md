@@ -5,6 +5,7 @@
 
 ## what i'm working on
 - **Stencil** — Observe once. Abstract the pattern. Never do that shit again.
+- **Stencil Press** — Stencil but for documents.
 <img src="https://i.pinimg.com/736x/99/27/1f/99271f3506b414052c7cef137247fe41.jpg">
 
 ## stack
