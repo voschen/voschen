@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <defs>
+    <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" fill-opacity="0.3"/></pattern>
+    <clipPath id="frame"><rect width="900" height="320" rx="14"/></clipPath>
+    <style>
+      text { font-family: 'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono','Courier New',monospace; font-size:14px; }
+      .row { opacity:0; animation: fadein .45s ease-out forwards; }
+      @keyframes fadein { from { opacity:0; transform:translateX(-8px); } to { opacity:1; transform:none; } }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity:0; } }
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="900" height="320" fill="#060a07"/>
+    <circle cx="28" cy="24" r="5" fill="#ff5f56" fill-opacity=".8"/>
+    <circle cx="46" cy="24" r="5" fill="#ffbd2e" fill-opacity=".8"/>
+    <circle cx="64" cy="24" r="5" fill="#27c93f" fill-opacity=".8"/>
+    <text x="88" y="29" font-size="13" fill="#5fae7d">what i'm running</text>
+    <line x1="0" y1="46" x2="900" y2="46" stroke="#1f6b3f" stroke-opacity=".6"/>
+
+    <text x="34" y="74" fill="#3dff8a">❯ <tspan fill="#d7ffe6">ps --active</tspan></text>
+    <text x="34" y="92" fill="#3f8a5c" font-size="12">PROC</text>
+    <text x="210" y="92" fill="#3f8a5c" font-size="12">DESCRIPTION</text>
+    <text x="866" y="92" fill="#3f8a5c" font-size="12" text-anchor="end">STATE</text>
+    <g class="row" style="animation-delay:0.40s">
+      <text x="34" y="108" fill="#d7ffe6">agent-runtime</text>
+      <text x="210" y="108" fill="#7fae90">LLM assistant that takes actions in a live web app</text>
+      <text x="866" y="108" fill="#ffbd2e" text-anchor="end">▲ hardening</text>
+    </g><g class="row" style="animation-delay:0.75s">
+      <text x="34" y="138" fill="#d7ffe6">eval-harness</text>
+      <text x="210" y="138" fill="#7fae90">reliability + regression testing for agents</text>
+      <text x="866" y="138" fill="#3dff8a" text-anchor="end">● running</text>
+    </g><g class="row" style="animation-delay:1.10s">
+      <text x="34" y="168" fill="#d7ffe6">ts-classifier</text>
+      <text x="210" y="168" fill="#7fae90">multivariate time-series · ML competition</text>
+      <text x="866" y="168" fill="#08d9ff" text-anchor="end">✔ shipped</text>
+    </g><g class="row" style="animation-delay:1.45s">
+      <text x="34" y="198" fill="#d7ffe6">self</text>
+      <text x="210" y="198" fill="#7fae90">elegant code writing skillup</text>
+      <text x="866" y="198" fill="#c792ff" text-anchor="end">◌ training</text>
+    </g>
+
+    <g class="row" style="animation-delay:1.8s">
+      <text x="34" y="252" fill="#3dff8a">❯ <tspan fill="#d7ffe6">cat stack.txt</tspan></text>
+    </g>
+    <g class="row" style="animation-delay:2.00s">
+      <rect x="34" y="268" width="74" height="28" rx="6" fill="#0f2418" stroke="#2aa860" stroke-opacity=".7"/>
+      <text x="71" y="287" fill="#b8ffd4" text-anchor="middle">Python</text>
+    </g><g class="row" style="animation-delay:2.12s">
+      <rect x="118" y="268" width="133" height="28" rx="6" fill="#0f2418" stroke="#2aa860" stroke-opacity=".7"/>
+      <text x="185" y="287" fill="#b8ffd4" text-anchor="middle">Anthropic API</text>
+    </g><g class="row" style="animation-delay:2.24s">
+      <rect x="262" y="268" width="91" height="28" rx="6" fill="#0f2418" stroke="#2aa860" stroke-opacity=".7"/>
+      <text x="307" y="287" fill="#b8ffd4" text-anchor="middle">Pydantic</text>
+    </g><g class="row" style="animation-delay:2.36s">
+      <rect x="363" y="268" width="108" height="28" rx="6" fill="#0f2418" stroke="#2aa860" stroke-opacity=".7"/>
+      <text x="417" y="287" fill="#b8ffd4" text-anchor="middle">Playwright</text>
+    </g><g class="row" style="animation-delay:2.48s">
+      <rect x="481" y="268" width="74" height="28" rx="6" fill="#0f2418" stroke="#2aa860" stroke-opacity=".7"/>
+      <text x="518" y="287" fill="#b8ffd4" text-anchor="middle">pytest</text>
+    </g><g class="row" style="animation-delay:2.60s">
+      <rect x="565" y="268" width="74" height="28" rx="6" fill="#0f2418" stroke="#2aa860" stroke-opacity=".7"/>
+      <text x="602" y="287" fill="#b8ffd4" text-anchor="middle">SQLite</text>
+    </g>
+    <rect class="cursor" x="650" y="272" width="9" height="20" fill="#3dff8a"/>
+    <rect width="900" height="320" fill="url(#scan)"/>
+    <rect x="0.5" y="0.5" width="899" height="319" rx="14" fill="none" stroke="#2aa860" stroke-opacity=".55"/>
+  </g>
+</svg>

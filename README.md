@@ -1,17 +1,15 @@
-# World class Agentic Dev in Training
-> building things that build things
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="voschen — world class agentic dev in training" />
+</p>
 
-<img src="https://i.pinimg.com/736x/e5/18/5d/e5185d7f2e96f379b37ebfc636be3248.jpg" width="48%"> <img src="https://i.pinimg.com/736x/f2/79/79/f279798c79e89247dabf5fafc1239fb3.jpg" width="48%">
+<p align="center">
+  <img src="./assets/now.svg" width="100%" alt="what i'm running" />
+</p>
 
-## what i'm working on
-- **Stencil** — Observe once. Abstract the pattern. Never do that shit again.
-- **Stencil Press** — Stencil but for documents.
-- **EngramOS** — Weaponized neuroplasticity. Genius-fast skill acquisition.
+<details>
+<summary><code>❯ ls ./graveyard</code></summary>
+<br>
 
-<img src="https://i.pinimg.com/736x/99/27/1f/99271f3506b414052c7cef137247fe41.jpg">
+where it started — [Stencil](https://github.com/voschen/Stencil) · [Stencil-Press](https://github.com/voschen/Stencil-Press) · [Web-Witcher](https://github.com/voschen/Web-Witcher) · [EngramOS](https://github.com/voschen/EngramOS)
 
-## stack
-Python · Playwright · Pydantic · SQLite · Langchain · Anthropic API
-
-## status
-elegant code writing skillup
+</details>
